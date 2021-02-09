@@ -1,0 +1,28 @@
+<div class="heading">
+    <label>
+        Prediction for iPhone in 2021
+    </label>
+</div>
+<button class="home_button" (click)="gotoPage('home')">
+    <label>
+        Goto Home
+    </label>
+</button>
+<div class="table-div">
+    <table>
+        <td>
+            <input type="number" id="InitialPrice" placeholder="Enter the initial Price" class="table-content" required>
+        </td>
+        <td>
+            <button class="table-content" (click)="get_prediction()">
+                <label>
+                    Submit
+                </label>
+            </button>
+        </td>
+    </table>
+    <br><br><br>
+    <div class="result-div">
+        {{predicted_price}}
+    </div>
+</div>

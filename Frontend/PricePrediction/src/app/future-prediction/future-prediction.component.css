@@ -1,0 +1,31 @@
+.heading{
+    font-size: 35px;
+    font-family: unset;
+    text-align: -webkit-center;
+    margin-top: 50px;
+}
+
+.table-div{
+    text-align: -webkit-center;
+    border: 0px solid black;
+    margin-top: 200px;
+}
+
+.table-content{
+    font-size: 20px;
+    border: 0.5px solid black;
+    margin: 10px;
+}
+
+.result-div{
+    font-size: 25px;
+    font-family: unset;
+}
+
+.home_button{
+    float: right;
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: unset;
+}

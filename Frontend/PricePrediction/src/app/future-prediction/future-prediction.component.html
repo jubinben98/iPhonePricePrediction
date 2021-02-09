@@ -1,0 +1,34 @@
+<div class="heading">
+    <label>
+        Prediction for iPhone in Future
+    </label>
+</div>
+<button class="home_button" (click)="gotoPage('home')">
+    <label>
+        Goto Home
+    </label>
+</button>
+<div class="table-div">
+    <table>
+        <td>
+            <input type="number" id = "InitialYear" placeholder="Released Year" min="2007" max="2099" step="1" value="2010" />
+        </td>
+        <td>
+            <input type="number" id = "FutureYear" placeholder="Future Year" min="2007" max="2099" step="1" value="2021" />
+        </td>
+        <td>
+            <input type="number" id="InitialPrice" placeholder="Enter the initial Price" class="table-content" required>
+        </td>
+        <td>
+            <button class="table-content" (click)="get_prediction()">
+                <label>
+                    Submit
+                </label>
+            </button>
+        </td>
+    </table>
+    <br><br><br>
+    <div class="result-div">
+        {{predicted_price}}
+    </div>
+</div>
